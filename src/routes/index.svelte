@@ -31,9 +31,7 @@
 
 <script>  
   export let projects
-  console.log(projects);
 </script>
-
 
 <h1>Recent Projects by Me</h1>
 
