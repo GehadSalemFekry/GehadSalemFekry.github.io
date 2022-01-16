@@ -45,3 +45,21 @@ export const projectQuery = gql`
 		}
 	}
 `;
+
+export const postsQuery = gql`
+	${POST_FRAGMENT}
+	query GetPosts {
+		posts {
+			...PostDetails
+		}
+	}
+`;
+
+export const postQuery = gql`
+	${POST_FRAGMENT}
+	query GetPost($slug: String!) {
+		post(where: { slug: $slug }) {
+			...PostDetails
+		}
+	}
+`;
