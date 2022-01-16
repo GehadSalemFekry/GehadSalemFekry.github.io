@@ -26,11 +26,11 @@
 </script>
 
 <svelte:head>
-  <title>My Portfolio project</title>
+  <title>Gehad's Life</title>
 </svelte:head>
 
 <h1 class="font-bold text-center mb-20 text-5xl">
-  Welcome to my Portfolio
+  Welcome To My Life
 </h1>
 
 {#each authors as { name, intro, picture: { url } }}

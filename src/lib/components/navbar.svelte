@@ -6,7 +6,7 @@
   class="navbar mb-16 shadow-lg bg-neutral text-neutral-content sticky top-0 z-10"
 >
   <div class="flex-1 px-2 mx-2">
-    <a class="text-lg font-bold" href="/"> Portfolio and Blog </a>
+    <a class="text-lg font-bold" href="/">Gehad's Life</a>
   </div>
 
   <div class="dropdown dropdown-left lg:hidden">
@@ -15,6 +15,9 @@
       tabindex="0"
       class="bg-neutral rounded-box shadow text-neutral-content p-2 w-52 menu dropdown-content "
     >
+      <a class="btn btn-ghost btn-sm rounded-btn" href="/">
+        Home
+      </a>  
       <a class="btn btn-ghost btn-sm rounded-btn" href="/projects">
         Portfolio
       </a>
