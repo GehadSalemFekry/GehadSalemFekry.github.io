@@ -46,6 +46,22 @@ export const projectQuery = gql`
 	}
 `;
 
+const POST_FRAGMENT = gql`
+	fragment PostDetails on Post {
+		title
+		slug
+		date
+		content
+		tags
+		coverImage {
+			url
+		}
+		authors {
+			name
+		}
+	}
+`;
+
 export const postsQuery = gql`
 	${POST_FRAGMENT}
 	query GetPosts {
