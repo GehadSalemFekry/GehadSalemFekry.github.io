@@ -32,6 +32,9 @@
 
   <div class="flex-none hidden px-2 mx-2 lg:flex">
     <div class="flex items-stretch">
+      <a class="btn btn-ghost btn-sm rounded-btn" href="/">
+        Home
+      </a>  
       <a class="btn btn-ghost btn-sm rounded-btn" href="/projects">
         Portfolio
       </a>
