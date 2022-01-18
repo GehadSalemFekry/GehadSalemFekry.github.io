@@ -79,3 +79,13 @@ export const postQuery = gql`
 		}
 	}
 `;
+
+export const openGenusPostsQuery = gql`
+	query GetOpenGenusPosts {
+		openGenusPosts {
+			title
+			link
+			description
+		}
+	}
+`;
